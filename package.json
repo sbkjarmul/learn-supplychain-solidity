@@ -1,0 +1,21 @@
+{
+  "name": "learn-supplychain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ganache": "ganache-cli -m \"candy mapple cake sugar pudding cream honey rich smooth crumble sweet treat\"",
+    "test": "truffle test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.9.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "1.7.0",
+    "web3": "1.6.1"
+  }
+}
